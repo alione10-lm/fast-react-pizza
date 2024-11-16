@@ -1,5 +1,4 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { fromJSON } from 'postcss';
 import getAdress from '../../services/apiGeocoding';
 
 function getPosition() {
